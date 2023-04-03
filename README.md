@@ -1,12 +1,12 @@
 # bank_system
 Emulator of an ATM for Checking and Savings Accounts
 
-This program is part of my final assginment for the Python Course @Concordia University - Winter 2023
+This program is part of my final assignment for the Python Course @Concordia University - Winter 2023
 
 All documentation and statements below this line
 -----------------------------------------------------------------------------------------------------
 
-QUESTION 1] BANKING APPLICATION
+BANKING APPLICATION
 The purpose of this problem is to develop a hierarchy of classes that represent different types of bank accounts and then to simulate the most common transactions upon these accounts.
 • Technically, you should be creating separate files for each and any class which you create.
 • Ensure that there is no possibility the program fails due to an exception (exception handling).
