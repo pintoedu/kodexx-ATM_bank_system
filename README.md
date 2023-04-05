@@ -26,6 +26,7 @@ The first step is to create data fields that hold the following basic informatio
 • Current account status (to represent an active or inactive account)
 
 STEP 2
+
 Create a base class that defines the basic operations of the banking system. It will have as a class variable all the data fields. Make the data fields protected if possible.
 The methods in this class should be abstract.
 This super class should have the following methods (functions):
