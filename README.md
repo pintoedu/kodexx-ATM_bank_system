@@ -14,7 +14,7 @@ The purpose of this problem is to develop a hierarchy of classes that represent 
 • Ensure that validation is implemented for all inputs (use best-guess assumptions on the inputs such as values >0 for example).
 • Ensure FORMATTING is applied properly, money should ideally use money formatting.
 
-
+-----
 STEP 1
 
 The first step is to create data fields that hold the following basic information about a bank account:
@@ -28,7 +28,7 @@ The first step is to create data fields that hold the following basic informatio
 • This month’s service charge
 • Current account status (to represent an active or inactive account)
 
-
+-----
 STEP 2
 
 Create a base class that defines the basic operations of the banking system. It will have as a class variable all the data fields. Make the data fields protected if possible.
@@ -43,7 +43,7 @@ Monthly Interest = Balance * Monthly Interest Rate
 Balance = Balance + Monthly Interest
 close_month: A method that subtracts the monthly service charges from the balance, calls the calc_interest method, and then sets the variables that hold the number of withdrawals, number of deposits, and monthly service charges to zero. See below what the report should print out to the user!
 
-
+-----
 STEP 3
 
 Create a savings account class that is a subclass of the abstract account class. It should have the following member methods:
@@ -52,7 +52,7 @@ deposit: A method that checks to see if the account is inactive before a deposit
 close_month: Before the super class method is called, this method checks the number of withdrawals. If the number of withdrawals for the month is more than 4, a service charge of $1 for each withdrawal above 4 is added to the monthly service charge in the data fields.
 For any method, if the balance of a savings account falls below $25, it becomes inactive (status is false). No more withdrawals may be made until the balance is raised above $25, at which time the account becomes active again.
 
-
+-----
 STEP 4
 
 Create a checking account class that is a subclass of the abstract account class. It should have the following member methods:
