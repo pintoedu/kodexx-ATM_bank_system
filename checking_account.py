@@ -68,10 +68,3 @@ class CheckingAccount(BankAccount):
 		print(f"Account Status:                     {self._account_status}")
 		print("**********************************  **********")
 		
-		
-		
-		
-		
-		
-		
-		
