@@ -67,3 +67,11 @@ class CheckingAccount(BankAccount):
 		print(f"Current Balance:                    ${self._current_balance_this_month:.2f}")
 		print(f"Account Status:                     {self._account_status}")
 		print("**********************************  **********")
+		
+		
+		
+		
+		
+		
+		
+		
