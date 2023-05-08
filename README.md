@@ -1,4 +1,4 @@
-# bank_system
+# ATM_bank_system
 Emulator of an ATM for Checking and Savings Accounts
 
 This program is part of my final assignment for the Python Course @Concordia University - Winter 2023
