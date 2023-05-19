@@ -1,7 +1,6 @@
 from bank_account import BankAccount
 
 
-
 # SavingsAccount inherits from BankAccount
 class SavingsAccount(BankAccount):
 	# initializes the object with the starting balance and annual interest rate
