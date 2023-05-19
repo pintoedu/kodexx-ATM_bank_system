@@ -1,5 +1,7 @@
 from bank_account import BankAccount
 
+
+
 # CheckingAccount inherits from BankAccount
 class CheckingAccount(BankAccount):
 	# The constructor calls the superclass constructor
