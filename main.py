@@ -8,7 +8,6 @@ from checking_account import CheckingAccount
 
 
 
-
 # displays options for selecting an account type
 def display_bank_menu():
 	print("\nBank Menu:")
