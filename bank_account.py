@@ -14,7 +14,6 @@ class BankAccount(ABC):
 		self._annual_interest_rate = annual_interest_rate
 		self._service_charge_this_month = 0
 		self._account_status = "active"  # "active" or "inactive"
-		
 
 		
 
