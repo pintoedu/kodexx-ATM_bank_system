@@ -15,7 +15,6 @@ class BankAccount(ABC):
 		self._service_charge_this_month = 0
 		self._account_status = "active"  # "active" or "inactive"
 
-
 	# deposit() method updates the current balance, total deposits, and the number of deposits
 	def deposit(self, amount):
 		self._current_balance_this_month += amount
