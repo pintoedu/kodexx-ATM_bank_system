@@ -16,7 +16,7 @@ class BankAccount(ABC):
 		self._account_status = "active"  # "active" or "inactive"
 		
 		
-		
+
 
 	# deposit() method updates the current balance, total deposits, and the number of deposits
 	def deposit(self, amount):
