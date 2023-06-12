@@ -7,7 +7,7 @@ class SavingsAccount(BankAccount):
 		super().__init__(starting_balance, annual_interest_rate)
 		
 		
-		
+	
 
 	# check_status() checks the account status by comparing the current balance of the account to 25
 	def check_status(self):
