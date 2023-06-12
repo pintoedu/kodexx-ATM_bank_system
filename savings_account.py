@@ -8,7 +8,6 @@ class SavingsAccount(BankAccount):
 		
 		
 
-
 	# check_status() checks the account status by comparing the current balance of the account to 25
 	def check_status(self):
 		if self._current_balance_this_month < 25:
